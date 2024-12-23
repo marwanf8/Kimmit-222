@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- start navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">G222</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">portofilio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- start caption -->
+      <div
+        class="caption d-flex justify-content-center align-items-center text-center"
+      >
+        <div class="container">
+          <h1>Your Favorite Place for Free Bootstrap Themes</h1>
+          <div class="divider divider-main"></div>
+          <p>
+            Start Bootstrap can help you build better websites using the
+            Bootstrap framework! Just download a theme and start customizing, no
+            strings attached!
+          </p>
+          <button type="button" class="btn find-out-btn rounded-pill">
+            find out more
+          </button>
+        </div>
+      </div>
+      <!-- end caption -->
+    </header>
+    <!-- end header -->
+
+    <!-- start about-->
+    <section class="about text-center py-5">
+      <div class="container">
+        <h2>We 've got what you need!</h2>
+        <div class="divider divider-light"></div>
+        <p>
+          Start Bootstrap has everything you need to get your new website up and
+          running in no time! Choose one of our open source, free to download,
+          and easy to use themes! No strings attached!
+        </p>
+        <button class="btn get-started-btn rounded-pill text-uppercase">
+          get strated
+        </button>
+      </div>
+    </section>
+
+    <!-- start Services -->
+    <section class="services text-center">
+      <div class="container">
+        <h2>At Your Service</h2>
+        <div class="divider divider-main"></div>
+        <div class="row">
+          <div class="col-lg-3 col-mid-6 col-sm-12">
+            <i class="fa-solid fa-gem fa-3x icon my-3"></i>
+            <h3>Sturdy Themes</h3>
+            <p class="text-muted">
+              Our themes are updated regularly to keep them bug free!
+            </p>
+          </div>
+          <div class="col-lg-3 col-mid-6 col-sm-12">
+            <i class="fa-solid fa-laptop fa-3x icon my-3"></i>
+            <h3>Up to Date</h3>
+            <p class="text-muted">
+              All dependencies are kept current to keep things fresh.
+            </p>
+          </div>
+          <div class="col-lg-3 col-mid-6 col-sm-12">
+            <i class="fa-solid fa-globe fa-3x icon my-3"></i>
+            <h3>Ready to Publish</h3>
+            <p class="text-muted">
+              You can use this design as is, or you can make changes!
+            </p>
+          </div>
+          <div class="col-lg-3 col-mid-6 col-sm-12">
+            <i class="fa-regular fa-heart fa-3x icon my-3"></i>
+            <h3>Made with Love</h3>
+            <p>Is it really open source if it's not made with love?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services-->
+
+    <!-- start portfolio -->
+    <section class="portfolio">
+      <div class="row g-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal1"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/1.jpg" />
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Project name
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/portfolio/fullsize/1.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/2.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/3.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/4.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/5.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 position-relative image">
+          <div
+            class="caption position-absolute top-50 start-50 translate-middle"
+          >
+            <h4>category</h4>
+            <h2>Project name</h2>
+          </div>
+          <img src="assets/img/portfolio/fullsize/6.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- start download -->
+    <section class="download py-5">
+      <div class="download text-white">
+        <div class="container text-center">
+          <h2>Free Download at Start Bootstrap!</h2>
+          <button
+            class="btn text-uppercase btn-light rounded-pill fw-bold mt-3"
+          >
+            download now!
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- end download -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

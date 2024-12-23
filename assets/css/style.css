@@ -1,0 +1,106 @@
+:root {
+  --main-color: #f4623a;
+  --white-color: #fff;
+  --black-color: #000;
+}
+.divider {
+  display: block;
+  margin: 2% auto;
+  width: 15%;
+  height: 0.3vh;
+  content: "";
+}
+.divider-light {
+  background-color: var(--white-color);
+}
+.divider-main {
+  background-color: var(--main-color);
+}
+/* navbar */
+.nav-link{
+  color: var(--white-color);
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover{
+  color: var(--white-color);
+  font-weight: bolder;
+}
+/* header */
+header {
+  background-image: url("../img/bg-masthead.jpg");
+  background-color: rgba(92, 77, 66, 0.8);
+  background-blend-mode: multiply;
+  height: 100vh;
+  background-size: cover;
+  .caption {
+    height: 80vh;
+    width: 50vw;
+    margin: 0 auto;
+    color: var(--white-color);
+    h1 {
+      font-size: 4rem;
+    }
+    .find-out-btn {
+      color: var(--white-color);
+      background-color: var(--main-color);
+      padding: 2% 5%;
+    }
+  }
+}
+
+.about{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    .get-started-btn{
+      background-color: var(--white-color);
+      color: var(--black-color);
+      padding: 2% 5%;
+    }
+}
+
+.services{
+  /* background-color: var(--white-color); */
+  height: 70vh;
+  align-content:center;
+  .icon{
+    color: var(--main-color)
+  }
+}
+
+.portfolio{
+  height: 70vh;
+  align-content: center;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.caption{
+  background-color: var(--main-color);
+  opacity: 0;
+  color: var(--white-color);
+  width: 100%;
+  height:100%;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image:hover .caption{
+  opacity: 0.9;
+}
+
+.download{
+  height: 50vh;
+  background-color: rgb(33, 37, 41);
+  align-content: center;
+  position: relative;
+  .btn{
+      width: 30vh;
+      height: 10vh;
+      font-size: 0.9rem;
+  }
+}
